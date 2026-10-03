@@ -160,7 +160,7 @@ rpds-py==0.30.0
     #   referencing
 rpyc==6.0.2
     # via flexget
-setuptools==83.0.0
+setuptools==84.0.0
     # via
     #   pynzb
     #   zc-lockfile
@@ -172,7 +172,7 @@ six==1.17.0
     # via
     #   html5lib
     #   python-dateutil
-soupsieve==2.9
+soupsieve==2.10
     # via beautifulsoup4
 sqlalchemy==2.0.49
     # via flexget
