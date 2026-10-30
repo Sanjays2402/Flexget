@@ -20,11 +20,11 @@ beautifulsoup4==4.14.3
     # via flexget
 blinker==1.9.0
     # via flask
-brotli==1.2.0 ; platform_python_implementation != 'PyPy'
+brotli==1.2.1 ; platform_python_implementation != 'PyPy'
     # via flask-compress
-brotlicffi==1.2.0.1 ; platform_python_implementation == 'PyPy'
+brotlicffi==1.2.1.0 ; platform_python_implementation == 'PyPy'
     # via flask-compress
-certifi==2026.4.22
+certifi==2026.10.18
     # via requests
 cffi==2.0.0 ; platform_python_implementation == 'PyPy'
     # via brotlicffi
@@ -160,7 +160,7 @@ rpds-py==0.30.0
     #   referencing
 rpyc==6.0.2
     # via flexget
-setuptools==83.0.0
+setuptools==84.1.0
     # via
     #   pynzb
     #   zc-lockfile
@@ -172,7 +172,7 @@ six==1.17.0
     # via
     #   html5lib
     #   python-dateutil
-soupsieve==2.9
+soupsieve==2.10
     # via beautifulsoup4
 sqlalchemy==2.0.49
     # via flexget
@@ -197,7 +197,7 @@ urllib3==2.8.0
     # via requests
 webencodings==0.5.1
     # via html5lib
-werkzeug==3.1.8
+werkzeug==3.1.9
     # via
     #   flask
     #   flask-cors
